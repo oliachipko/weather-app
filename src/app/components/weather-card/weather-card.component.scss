@@ -2,6 +2,7 @@ mat-card {
   width: 300px;
   margin: 10px;
   opacity: 0.9;
+  max-height: 600px;
 }
 
 mat-card::ng-deep.mat-card-header-text {
@@ -20,6 +21,7 @@ mat-card::ng-deep.mat-card-header-text {
   .outlook {
     color: black;
     background: rgba(0,0,0,0.1);
+    min-height: 190px;
   }
 
   .temp {
