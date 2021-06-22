@@ -17,10 +17,9 @@
     </div>
     <div class="additional">
       <p>Wind direction: {{weather.wind_cdir_full}}</p>
-      <p>Wind speed: {{weather.wind_spd}}m/s</p>
-      <p>Average pressure: {{weather.pres}}mb</p>
+      <p>Average pressure: {{weather.pres | round }}mb</p>
       <p>Probability of Precipitation: {{weather.pop}}%</p>
-      <p>Visibility: {{weather.vis}}km</p>
+      <p>Visibility: {{weather.vis | round }}km</p>
       <p>Average relative humidity: {{weather.rh}}%</p>
     </div>
   </mat-card-content>

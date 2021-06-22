@@ -10,10 +10,12 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {FormsModule} from '@angular/forms';
 import {MatCardModule} from '@angular/material/card';
 import { WeatherCardComponent } from './components/weather-card/weather-card.component';
+import { RoundPipe } from './round.pipe';
 @NgModule({
   declarations: [
     AppComponent,
-    WeatherCardComponent
+    WeatherCardComponent,
+    RoundPipe
   ],
   imports: [
     BrowserModule,
